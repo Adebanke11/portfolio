@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdevaCodes - Affordable Web Design & Development Company in Nigeria</title>
+  <meta name="description"
+    content="AdevaCodes is Nigeria's leading web design and development agency, crafting mobile-friendly, SEO-optimized websites for startups, SMEs, and e-commerce brands. Get a stunning online presence that grows your business. Fast delivery. Fair pricing. Proven results." />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/adeva codes logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="bootstrap-5.3.6-dist/bootstrap/css/bootstrap.min.css">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <img src="images/adeva codes logo.png" class="logo navbar-brand" />
+
+      <!-- Regular menu for large screens -->
+      <div class="d-none d-lg-block">
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item me-5">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link text-white" href="#section1">About Us</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link text-white" href="#section2">Services</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link text-white" href="#features">Features</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Hamburger toggle only visible on small screens -->
+      <button class="navbar-toggler d-lg-none custom-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Offcanvas for mobile -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/adeva codes logo.png"
+              style="width:100px; height:100px;"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item "><a class="nav-link active " aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section1">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section2">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="heroSection" class="">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center align-items-center heroText" style="background-color: #201b1b;">
+            <div class="text-center">
+              <h1 class="text-white text-center" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="2000"
+                data-aos-easing="ease-in-out" data-aos-once="true">ADEVA CODES <img src="images/code-slash.svg"
+                  style="width:40px; height:40px;"></h1>
+
+              <div class="typing-container">
+                <span id="text"></span><span class="cursor"></span>
+              </div>
+              <a class="btn custom-btn text-white mt-5"
+                href="https://wa.me/2347017466460?text=Hello%20AdevaCodes!%20I%20am%20interested%20in%20your%20services."
+                target="_blank" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="200"
+                data-aos-easing="ease-in-out" data-aos-once="true">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="myCarousel">
+          <img src="images/freepik__the-style-is-candid-image-photography-with-natural__60660.jpeg"
+            class="d-block w-100 heroImage" title="web design and development company in Nigeria" alt="Adeva codes">
+          <div class="carousel-caption  d-md-block">
+            <h1 class="text-center">Powerful, Custom Websites That Drive Results</h1>
+
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="section1">
+    <div class="row mx-2">
+      <div class="col-lg-6 col-md-6 sm-flex-column xs-flex-column">
+
+        <h2 class="text-center line ">About Us</h2>
+        <p class="lh-lg fs-5 mx-2 text-justify"><span class="ade">A</span>devaCodes is a creative digital agency based
+          in Nigeria that
+          specializes in modern website design, web application development, e-commerce solutions, UI/UX design, and
+          digital branding. We blend technology and creativity to build functional, aesthetically pleasing digital
+          experiences that elevate your business online.
+        </p>
+        <h2 class="text-center line  my-4">Who We Are</h2>
+        <p class="lh-lg fs-5 my-4 text-justify">Professional web design, development, and branding services in Nigeria
+          tailored to grow
+          your business and dominate your niche.
+        </p>
+        <h2 class="text-center line  my-4" data-aos="zoom-in" data-aos-duration="500"
+        data-aos-delay="50" data-aos-easing="ease-in-out" data-aos-once="true">Impact</h2>
+        <p class="lh-lg text-justify fs-5 mx-2">At AdevaCodes, we turn digital frustration into growth. We create
+          high-performing, conversion-focused websites that help businesses worldwide attract customers, boost
+          visibility, and achieve lasting success online.</p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 sm-flex-column xs-flex-column ">
+        <div class="container">
+          <h2 class="text-center line my-4" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100"
+            data-aos-easing="ease-in-out" data-aos-once="true">Why Choose Us</h2>
+          <div class="box-card shadow-lg bg-white  mt-5 box1" style="font-weight: bold;">
+            <p>Expert Developers & Designers</p>
+          </div>
+          <div class="box-card  shadow-lg text-white box2" style="background-color: #B048D2; font-weight: bold;">
+            Lightning-fast Website Performance</div>
+          <div class="box-card bg-white shadow-lg box3" style="font-weight: bold;">Mobile-Responsive Designs</div>
+          <div class="box-card text-white shadow-lg box4" style="background-color: #B048D2;font-weight: bold;">
+            SEO-Optimized from Day One</div>
+          <div class="box-card bg-white shadow-lg box5" style="font-weight: bold;">Secure, Scalable, and Future-Proof
+          </div>
+          <div class="box-card text-white  shadow-lg box6" style="background-color: #B048D2; font-weight: bold;">
+            Results-Driven Approach</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section2">
+    <div class="services d-flex align-items-center justify-content-center py-4" data-aos="zoom-in-up"
+      data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-once="true">
+      <h3>Services</h3>
+    </div>
+    <div class="row second pb-5 mx-2">
+      <div class="col-lg-4 col-md-6 sm-flex-column xs-flex-column" data-aos="slide-right" data-aos-duration="1000"
+        data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-once="true">
+        <h4 class="violet-border">Web
+          Development</h4>
+        <ul class="text-justify">
+          <li>Responsive Design</li>
+          <li>Front-end Frameworks and Libraries</li>
+          <li>Browser Compatibility</li>
+          <li>Web Accessibility</li>
+          <li>Performance optimization</li>
+        </ul>
+        <h4 class="violet-border">Design and User
+          Experience</h4>
+        <ul class="text-justify">
+          <li>Client Support</li>
+          <li>Landing Pages</li>
+          <li>E-commerce product page</li>
+          <li>Effective Communication</li>
+        </ul>
+      </div>
+      <div class=" col-lg-4 col-md-6 sm-flex-column xs-flex-column" data-aos="slide-up" data-aos-duration="1000"
+        data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-once="true">
+        <h4 class="violet-border">Digital Marketing
+        </h4>
+        <ul class="text-justify mb-md-5">
+          <li>User Research</li>
+          <li>Visual Design</li>
+          <li>Blog / Article writing</li>
+          <li>Keyword Research & Strategy</li>
+        </ul>
+        <h4 class="violet-border">Search Engine
+          Optimization</h4>
+        <ul class="text-justify">
+          <li>Website Speed Optimization</li>
+          <li>Mobile-Friendly Design</li>
+          <li>Google My Business</li>
+          <li>Analytics & SEO Tracking Setup</li>
+        </ul>
+
+      </div>
+
+
+      <div class=" col-lg-4 col-md-7 sm-flex-column xs-flex-column mx-auto" data-aos="flip-up" data-aos-duration="1000"
+        data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-once="true">
+        <img src="images/7520071-removebg-preview.png" alt="responsive web design" class="img-fluid">
+      </div>
+
+    </div>
+  </section>
+
+  <section id="features">
+
+    <h2 class=" text-center line" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200"
+      data-aos-easing="ease-in-out" data-aos-once="true">How We Can Serve You</h2>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="row align-items-center m-2">
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-right" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/code-solid.svg" style="width:80px; height:100px; display:block; opacity: 0.6;"
+                alt="medal icon" class="m-auto img-fluid">
+              <h5 class=" text-center">WEB DEVELOPMENT</h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">Custom web solutions that reflect your brand and convert visitors into
+                customers.
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-up" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/cart-plus-solid (1).svg" style="width:80px; height:100px; display:block; opacity: 0.6;"
+                alt="medal icon" class="m-auto img-fluid">
+              <h5 class=" text-center">E-COMMERCE SOLUTIONS </h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">Secure and scalable online stores using Shopify, WooCommerce, or custom
+                platforms.
+                .
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-left" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/magnifying-glass-chart-solid.svg"
+                style="width:80px; height:100px; display:block; opacity: 0.6;" alt="medal icon"
+                class="m-auto img-fluid">
+              <h5 class=" text-center">SEO & DIGITAL MARKETING</h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">We build websites that Google loves. On-page SEO, technical optimization,
+                and content strategy included.
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="row align-items-center m-2">
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-right" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/code-pull-request-solid.svg"
+                style="width:80px; height:100px; display:block; opacity: 0.6;" alt="medal icon"
+                class="m-auto img-fluid">
+              <h5 class=" text-center">WEBSITE REDESIGN</h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">Is your current site underperforming? We'll revamp it for speed, UX, and
+                SEO.
+                .
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-up" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/blog-solid.svg" style="width:80px; height:100px; display:block; opacity: 0.6;"
+                alt="medal icon" class="m-auto img-fluid">
+              <h5 class=" text-center">BLOG </h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">Expert Blogging Share your expertise and attract audiences with engaging
+                blogs.
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 sm-flex-column xs-flex-column d-flex justify-content-center align-items-center my-3"
+          data-aos="slide-left" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out"
+          data-aos-once="true">
+          <div class="hover-container rounded shadow">
+            <div class="hover-heading">
+              <img src="images/app-store-ios-brands.svg" style="width:80px; height:100px; display:block; opacity: 0.6;"
+                alt="medal icon" class="m-auto img-fluid">
+              <h5 class=" text-center">WEB APP DEVELOPMENT</h5>
+            </div>
+            <div class="hover-text text-white">
+              <p class="text-center lh-base ">Custom Web Apps Boost efficiency and productivity with tailored web
+                applications. Let's build yours.
+              </p>
+            </div>
+            <div class="violet-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-4">
+    <h2 class="line text-center " data-aos="zoom-in-up" data-aos-duration="500"
+        data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-once="true">Our Tech Stack</h2>
+    <p class="text-justify m-4 lh-lg fs-5">At AdevaCodes, we specialize in cutting-edge web technologies including HTML,
+      CSS, JavaScript, Bootstrap, WordPress, React JS, WooCommerce, Shopify, and a wide range of advanced tools to build
+      high-performing, SEO-optimized, and conversion-driven websites.</p>
+    <marquee behavior="alternate" direction="left" scrollamount="2" class="marquee">
+      <img src="images/html image.png" alt="html5 css3 logo" style="width:130px;height:130px;">
+      <img src="images/JS icon.png" alt="javaScript logo" style="width:130px;height:130px;">
+      <img src="images/react icon.png" alt="react logo" style="width:130px;height:130px;">
+      <img src="images/new_bootstrap-removebg-preview.png" alt="bootstrap logo" style="width:130px;height:130px;">
+      <img src="images/wordpess_logo-removebg-preview.png" class="me-5" alt="WordPress logo"
+        style="width:130px;height:130px;">
+      <img src="images/woocom_logo-removebg-preview.png" class="me-5" alt="WooCommerce logo"
+        style="width:110px;height:130px;">
+      <img src="images/shopify_logo-removebg-preview.png" alt="shopify logo" style="width:100px;height:100px;">
+    </marquee>
+
+  </section>
+  <section>
+    <hr>
+    <h1 class="text-center flash-text m-3">Custom Web Design & Development Services – <span style="opacity:0.7">Work
+        With Top Developers Today</span></h1>
+    <hr>
+  </section>
+  <section class="m-3">
+    <h2 class="text-center line my-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100"
+      data-aos-easing="ease-in-out" data-aos-once="true">FAQs </h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            What services does AdevaCodes offer?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            We offer web design, web development, e-commerce solutions, and more.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo">
+            Do you provide SEO services?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Yes. All our web design packages come with basic on-page SEO. For advanced keyword targeting and Google
+            ranking strategies, we offer premium SEO services
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree">
+            How long does it take to build a website?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            It depends on the complexity. Basic websites take 7–10 working days, while e-commerce and custom projects
+            may take 3–5 weeks.
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour">
+            Will my website be mobile-friendly?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Absolutely! All websites we design are fully responsive across mobile, tablet, and desktop devices
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive">
+            Do you provide hosting and domain?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Yes! We can assist with affordable web hosting in Nigeria and help register your preferred domain name
+            (.com, .ng, .org, etc.).
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix">
+            Can I update my website by myself?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Yes. If you want a website with a Content Management System (CMS) like WordPress, we’ll set it up so you can
+            easily update pages, blog posts, and more.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven">
+            Do you redesign existing websites?
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Yes. If your current website is outdated, slow, or not converting, we can redesign it for better UX,
+            performance, and SEO.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseEight">
+            What if I need a custom web application?
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body fs-5">
+            Absolutely! We specialize in building fully custom web applications tailored to your business needs. Every
+            web application we create is designed with performance, security, and growth in mind, ensuring you get a
+            solution that works for your customers and your business.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="contact-section my-5" id="contact">
+    <hr>
+    <h2 class="text-center line my-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100"
+      data-aos-easing="ease-in-out" data-aos-once="true">Get in Touch</h2>
+    <p class="text-center fs-5 m-5" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">Ready to take your
+      online presence to the next level? Contact us today for a free
+      consultation and quote.</p>
+
+    <div class="container2 shadow-lg" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="100"
+      data-aos-easing="ease-in-out" data-aos-once="true">
+      <div class="row m-2">
+        <h2 class="text-center my-4 line">Contact Us</h2>
+        <div class="col-lg-8 col-md-8 sm-flex-column xs-flex-column">
+          <p><img src="images/envelope-at-fill.svg" class="me-2 mb-3" alt="email logo" style="width:26px; height:26px;"
+              title="mail"><a href="mailto:uswat8379@gmail.com" class="contact">uswat8379gmail.com</a></p>
+          <p><img src="images/telephone-fill.svg" class="me-2 mb-3" style="width:26px; height:26px;"
+              title="telephone"><a href="tel:+2347017466460" class="contact"> +2347017466460</a></p>
+          <p class="d-flex" style="display:inline-block;"><img src="images/geo-alt-fill.svg" title="location"
+              class="me-2 mb-3 " style="width:26px; height:26px;"><span style="font-size: 18px;">10, Oregun road, Ikeja,
+              Lagos State.</span></p>
+        </div>
+        <div class="col-lg-4 col-md-4 sm-flex-column xs-flex-column  text-center">
+          <p><a href="http://linkedin.com/in/uswat-a-364bb323b" target="_blank"><img src="images/linkedin-brands.svg"
+                class="me-2 mb-3" alt="linkedin logo" title="linkedin" style="width:26px; height:26px;">Linkedin</a></p>
+          <p><a href="http://github.com/DevBanky001" target="_blank"><img src="images/github-brands.svg"
+                class="me-2 mb-3" alt="github logo" title="github" style="width:26px; height:26px;">Github</a></p>
+          <p><a href="https://x.com/hassanathuswat?s=21" target="_blank"><img src="images/twitter-x.svg"
+                class="me-2 mb-3" alt="twitter logo" title="twitter" style="width:26px; height:26px;">twitterX</a></p>
+        </div>
+        <hr class="pb-5">
+      </div>
+
+    </div>
+
+  </section>
+  <hr>
+  <section>
+    <p class="fs-5 m-5 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">At AdevaCodes, we
+      design websites that not only look good
+      but convert visitors into paying customers.</p>
+    <p class="fs-5 text-center m-3">Socialize with us: <a href="https://x.com/hassanathuswat?s=21" target="_blank"><img
+          src="images/twitter-x.svg" class="me-2 mb-2 social-icon" alt="twitter logo" title="Twitter"
+          style="width:26px; height:26px;"></a>
+      <a href="http://linkedin.com/in/uswat-a-364bb323b" target="_blank"><img src="images/linkedin-brands.svg"
+          class="me-2 mb-2 social-icon" alt="linkedin logo" title="linkedin page" style="width:26px; height:26px;"></a>
+      <a href="http://github.com/DevBanky001" target="_blank"><img src="images/github-brands.svg"
+          class="me-2 mb-2 social-icon" alt="github logo" title="Github" style="width:26px; height:26px;"></a>
+    </p>
+
+  </section>
+
+  <section class="footer bg-dark text-white py-5">
+    <img src="images/adeva codes logo.png" style="width:150px; height:150px; display:block; margin:auto;"
+      alt="AdevaCodes logo">
+    <p class="fs-footer text-center m-2" style="opacity:0.7;"> <b>AdevaCodes</b> — Nigeria’s Leading Web Design &
+      Digital Solutions Company
+      Build stunning, high-performance websites that grow your business. We specialize in web design, e-commerce, SEO,
+      branding, and digital marketing tailored for businesses in Nigeria and beyond.
+      Ready to scale your online presence? <span style="opacity:1;"><a
+          href="https://wa.me/2347017466460?text=Hi%20AdevaCodes..." target="_blank" rel="noopener noreferrer">Chat With
+          Us Now.</a></span></p>
+    <p class="fs-footer text-center"></p>
+    <p class="fs-footer text-center mx-2" style="opacity:0.7;"><u>Address :</u> 10, Oregun road, Ikeja, Lagos State.
+    </p>
+    <p class="fs-footer text-center">Call: +2347017466460</p>
+    <p class="fs-footer text-center">Email: <a href="mail to:uswat8379@gmail.com">Uswat8379@gmail.com</a></p>
+    <p class="fs-footer text-center mx-2" style="opacity:0.7;">Your business deserves a website that works — we deliver.
+    </p>
+    <p class="fs-footer text-center" style="opacity:0.7;">Copyright&copy; AdevaCodes<img src="images/code-slash.svg">
+    </p>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/2347017466460?text=Hi%20AdevaCodes..." class="whatsapp-float" target="_blank"
+    rel="noopener noreferrer">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
+  </a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap-5.3.6-dist/bootstrap/js/bootstrap.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    const text = "Innovative Web Design and Development in Nigeria";
+    const textElement = document.getElementById("text");
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        textElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 90); // typing speed
+      }
+    }
+    type();
+
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      effect: "slide",
+      breakpoints: {
+        320: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 5 }
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>
